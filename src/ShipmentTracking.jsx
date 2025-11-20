@@ -11,8 +11,8 @@ const ShipmentTracking = () => {
   const shipmentData = {
     currentState: "UK, London",
     destination: "534 1 St SW, Britt, Iowa 50423-1231",
-    company: "Groupeintercontinenal Shopping / Security Company",
-    departureDate: "21st (Friday)",
+    company: "Group intercontinenal Shipping / Security Company",
+    departureDate: "11/21/2025",
   };
 
   const steps = [
