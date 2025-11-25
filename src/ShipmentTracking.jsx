@@ -79,7 +79,7 @@ const ShipmentTracking = () => {
           </div>
 
           <div className="mt-6">
-            <TrackingProgress steps={steps} currentStep={2} />
+            <TrackingProgress steps={steps} currentStep={3} />
           </div>
         </>
       )}
