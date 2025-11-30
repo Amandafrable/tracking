@@ -15,14 +15,16 @@ const ShipmentTracking = () => {
     departureDate: "11/21/2025",
   };
 
-  const steps = [
-    "Label Created",
-    "Packed",
-    "Leaving UK",
-    "In Transit",
-    "Out for Delivery",
-    "Delivered",
-  ];
+const steps = [
+  "Label Created",
+  "Packed",
+  "Leaving UK",
+  "In Transit",
+  "On Hold",   
+  "Out for Delivery",
+  "Delivered",
+];
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -79,7 +81,7 @@ const ShipmentTracking = () => {
           </div>
 
           <div className="mt-6">
-            <TrackingProgress steps={steps} currentStep={3} />
+            <TrackingProgress steps={steps} currentStep={4} />
           </div>
         </>
       )}
